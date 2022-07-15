@@ -1,0 +1,35 @@
+.navbar__item{
+    display: flex;
+    height: 44px;
+    align-items: center;
+    cursor: pointer;
+}
+.navbar__item:hover{
+    background-color: #e5e5e5;
+}
+.navbar__item:active{
+    background-color: #019160;
+    color: #ffff;
+}
+
+.navbar__item-icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 16px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.icon-setting{
+    background-image: url(../../assets/icon/setting.png);
+}    
+.icon-report{
+    background-image: url(../../assets/icon/report.png);
+}    
+.icon-dashboard{
+    background-image: url(../../assets/icon/dashboard.png);
+}    
+.icon-employee{
+    background-image: url(../../assets/icon/dic-employee.png);
+}    

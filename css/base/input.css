@@ -1,0 +1,34 @@
+.input{
+    border: 1px solid #bbbb;
+    border-radius: 4px;
+    height: 25px;
+    font-family: MISA Font;
+    text-indent: 5px;
+    width: 240px;
+    outline: none;
+    /* font-style: italic; */
+
+}
+::placeholder
+{
+    font-style: italic;
+}
+.input:focus{
+    border: 1px solid #019160;
+
+}
+.label{
+    padding-bottom: 4px;
+}
+.input__icon{
+    border: 1px solid #bbbb;
+    border-radius: 4px;
+    height: 40px;
+    color: #bbb;
+    text-indent: 40px;
+    width: 250px;
+    background-image: url(../../assets/icon/search.png);
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: 16px center;
+}

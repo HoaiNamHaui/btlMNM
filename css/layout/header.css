@@ -1,0 +1,69 @@
+
+.header-left{
+    width: 226px;
+    height: 48px;
+    background-color: #ffff;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #dedede;
+}
+.header-right{
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dedede;
+}
+.combobox{
+    display: flex;
+    align-items: center;
+}
+.combobox .option{
+    margin-left: 24px;
+}
+.combobox .down-icon{
+    margin-left: 10px;
+}
+.toggle-icon{
+    width: 24px;
+    height: 24px;
+    background-color: #ffff;
+    margin-left: 16px;
+    margin-right: 10px;
+    background-image: url(../../assets/img/toggle.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.logo{
+    height: 24px;
+    width: 100%;
+    background-image: url(../../assets/cukcuk-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    font-weight: bold;
+}
+.user{
+    display: flex;
+    margin-right: 16px;
+    align-items: center;
+}
+.user .avt{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-image: url(../../assets/icon/avatar-default.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-right: 16px;
+}
+.user .option-icon{
+    width: 16px;
+    height: 16px;
+    background-image: url(../../assets/icon/option.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 16px;
+}

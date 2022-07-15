@@ -1,0 +1,47 @@
+.button{
+    background-color: #019160;
+    border-radius: 4px;
+    height: 40px;
+    color: #ffff;
+    padding: 0 24px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    min-width: 100px;
+}
+.button:hover{
+    background-color: #2fbe8e;
+}
+.button:active{
+    background-color: #01b075;
+}
+
+.m-row{
+    margin-top: 15px;
+}
+
+.button__icon{
+    padding: 0 16px;
+    background-image: url(../../assets/icon/add.png);
+    background-repeat: no-repeat;
+    background-position: 16px center;
+    background-size: 16px 16px;
+    padding-left: 40px;
+}
+.button__icon--save{
+    padding: 0 16px;
+    background-image: url(../../assets/icon/floppy-disk-solid.svg);
+    background-repeat: no-repeat;
+    background-position: 16px center;
+    background-size: 16px 16px;
+    padding-left: 40px;
+}
+.button__cancel{
+    color: black;
+    background-color: transparent;
+    margin-left: 10px;
+}
+.button__cancel:hover{
+    background-color: #515252;
+    color: #ffff;
+}

@@ -1,0 +1,35 @@
+.table-data{
+    margin-top: 10px;
+    height: 450px;
+    max-height: 450px;
+    overflow-y: scroll;
+}
+
+table{
+    width: calc(100% - 20px);
+    margin: 10px auto;
+    border-collapse:collapse;
+}
+th, td{
+    border-bottom: 1px solid #bbbb;
+    height: 40px;
+    text-indent: 5px;
+}
+th{
+    text-align: left;
+}
+.table tr:nth-child(odd){
+    background-color:#eee;
+}
+.table tr:nth-child(even){
+    background-color:white;
+}
+.table thead tr:nth-child(1){
+    background-color:#ffff;
+}
+
+/* ==================================== */
+
+.employeeDetail__container--form  td{
+    border-bottom: 0px ;
+}

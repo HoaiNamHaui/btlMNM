@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CukCuk.vn</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+
+    <!-- header start -->
+    <div class="header">
+        <div class="header-left">
+            <div class="toggle-icon">
+            </div>
+            <div class="logo"></div>
+
+        </div>
+        <div class="header-right">
+            <div class="combobox">
+                <div class="option">Nhà hàng Biển Đông</div>
+                <div class="down-icon">
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+            </div>
+            <div class="user">
+                <div class="avt"></div>
+                <div class="name">Nguyễn Hoài Nam</div>
+                <div class="option-icon"></div>
+            </div>
+        </div>
+    </div>
+    <!-- header end -->
+
+
+    <!-- main  -->
+    <div class="main">
+        <!-- navigation -->
+        <div class="navbar">
+            <div class="navbar__item tab">
+                <div class="navbar__item-icon icon-dashboard"></div>
+                <div class="navbar__item-name ">Thống kê</div>
+            </div>
+            <div class="navbar__item">
+                <div class="navbar__item-icon icon-report"></div>
+                <div class="navbar__item-name ">Báo cáo</div>
+            </div>
+            <div class="navbar__item tab">
+                <div class="navbar__item-icon icon-employee"></div>
+                <div class="navbar__item-name ">Tài khoản</div>
+            </div>
+            <div class="navbar__item">
+                <div class="navbar__item-icon icon-setting"></div>
+                <div class="navbar__item-name ">Thiết lập hệ thống</div>
+            </div>
+        </div>
+        <!-- end navigation -->
+        <!-- content -->
+        <div class="content active ">
+            <div class="content__header">
+                <div class="content-title title">Danh sách nhân viên1</div>
+                <div class="button-add">
+                    <button id="btnAdd" class="button button__icon">Thêm nhân viên</button>
+                </div>
+            </div>
+            <div class="content-filter">
+                <div class="content-filter-left">
+                    <div class="content-filter__search">
+                        <input type="text" placeholder="Tìm kiếm theo tên" class="input__icon">
+                    </div>
+                </div>
+                <div class="content-filter-right">
+                    <div class="icon-refresh"></div>
+                </div>
+            </div>
+            <div class="table-data">
+                <table id="tbEmployeeList" class="table">
+                    <thead>
+                        <tr>
+                            <th><input type="checkbox" name="" id=""></th>
+                            <th>ID</th>
+                            <th>CHỦ XE</th>
+                            <th>LOẠI XE</th>
+                            <th>TÊN XE</th>
+                            <th>BIỂN SỐ</th>
+                            <th>GIỜ GỬI</th>
+                            <th>NGÀY GỬI</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+        <div class="content">
+            <div class="content__header">
+                <div class="content-title title">Danh sách nhân viên2</div>
+                <div class="button-add">
+                    <button id="btnAdd" class="button button__icon">Thêm nhân viên</button>
+                </div>
+            </div>
+            <div class="content-filter">
+                <div class="content-filter-left">
+                    <div class="content-filter__search">
+                        <input type="text" placeholder="Tìm kiếm theo tên" class="input__icon">
+                    </div>
+                </div>
+                <div class="content-filter-right">
+                    <div class="icon-refresh"></div>
+                </div>
+            </div>
+            <div class="table-data">
+                <table id="tbEmployeeList" class="table">
+                    <thead>
+                        <tr>
+                            <th><input type="checkbox" name="" id=""></th>
+                            <th>ID</th>
+                            <th>CHỦ XE</th>
+                            <th>LOẠI XE</th>
+                            <th>TÊN XE</th>
+                            <th>BIỂN SỐ</th>
+                            <th>GIỜ GỬI</th>
+                            <th>NGÀY GỬI</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+        <!-- content end  -->
+    </div>
+
+    <!-- form employee start  -->
+    <div id="employeeForm" class="dialog-container">
+        <div class="employeeDetail">
+            <div class="btnclose" id="btnClose">
+                X
+            </div>
+            <div class="heading employeeDetail__heading">THÔNG TIN CHỦ XE</div>
+            <div class="employeeDetail__container">
+                <div class="employeeDetail__container--avt">
+                    <img src="../assets/img/default-avatar.jpg" alt="">
+                    <p>
+                        (vui lòng chọn ảnh có định dạng <br>
+                        .jpg, .jpeg, .png, .gif)
+                    </p>
+                </div>
+                <div class="employeeDetail__container--form">
+                    <form action="">
+                        <table>
+                            <tr>
+                                <td>Loại xe:</td>
+                                <td><select class="input" name="" id="">
+                                        <option value="">Xe máy</option>
+                                        <option value="">Xe đạp</option>
+                                        <option value="">Ô tô</option>
+                                    </select></label></td>
+                            </tr>
+                            <tr>
+                                <td>Tên xe:</td>
+                                <td><input type="text" class="input"></td>
+                            </tr>
+                            <tr>
+                                <td>Biển số:</td>
+                                <td><input type="text" class="input"></label></td>
+                            </tr>
+                            <tr>
+                                <td>Chủ xe:</td>
+                                <td><input type="text" class="input"></td>
+                            </tr>
+                        </table>
+                    </form>
+
+
+                </div>
+            </div>
+            <div class="employeeDetail__controls">
+                <button id="btnCancel" class="button button__cancel">Hủy</button> <button id="btnSave"
+                    class=" button button__icon--save">Lưu</button>
+            </div>
+        </div>
+        <!-- form employee end -->
+    </div>
+    <!-- end main  -->
+    <script src="../js/js.js"></script>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/combobox.js"></script>
+    <script src="../js/employee.js"></script>
+    <script>
+
+      
+    </script>
+</body>
+
+</html>

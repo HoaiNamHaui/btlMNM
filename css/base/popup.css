@@ -1,0 +1,60 @@
+.popup{
+    margin: 20px auto;
+    position: relative;
+    width: 400px;
+    height: 190px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3) ;
+    background-color: #ffff;
+    border-radius: 4px;
+}
+.popup__close{
+    position: absolute;
+    top:0;
+    padding: 5px 8px;
+    right: 0;
+    font-size: 18px;
+}
+.popup__close:hover{
+    background-color: #ccc;
+}
+.popup__title{
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    font-family: MISA Font Bold;
+}
+.popup__icon{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    position: absolute;
+    top: 72px;
+    left: 24px;
+    color: yellow;
+}
+
+.popup__msg{
+    position: absolute;
+    top: 72px;
+    left: 74px;
+}
+.popup__controls{
+    height: 60px;
+    background-color: rgb(237, 235, 235);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.btncontinue{
+    background-color: transparent;
+    color: #000;
+    margin-right: 16px;
+}
+.btnclose{
+    margin-right: 24px;
+}

@@ -1,0 +1,47 @@
+.main__bottom{
+    width: calc(100%-20px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.main__bottom--mid{
+    display: flex;
+}
+.control{
+    margin: 0 10px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pagenumber{
+    border-radius: 50%;
+    background-color: #bbbb;
+    text-align: center;  
+}
+.pagenumber:active{
+    background-color: #019160;
+    color: #ffff;
+}
+.btn-control-page{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.firstpage{
+    background-image: url(../../assets/icon/btn-firstpage.svg);
+}
+.lastpage{
+    background-image: url(../../assets/icon/btn-lastpage.svg);
+}
+.nextpage{
+    background-image: url(../../assets/icon/btn-next-page.svg);
+}
+.prevpage{
+    background-image: url(../../assets/icon/btn-prev-page.svg);
+}
